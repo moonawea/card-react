@@ -1,13 +1,79 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 60%;
+    padding: 15px;
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.btn-icon {
+    position: absolute;
+    left: 330px;
+    top: 20px;
+    background-color: white;
+    border: 0.5px solid #9d9d9d;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+
+.text-list {
+    font-size: 18px;
+}
+
+.stars {
+    color: red;
+}
+
+.image {
+    position: relative;
+}
+
+.previews {
+    display: flex;
+}
+
+.previousPrice {
+    color: grey;
+}
+
+.title-previews {
+   padding: 5px 0;
+}
+
+p {
+    padding: 10px 0;
 }
